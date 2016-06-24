@@ -1,16 +1,186 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/paternbgwood"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
     tools:context="com.oxmar.ww.guitartuberapp.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <View
+            android:id="@+id/idView"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/circle_black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/idBtnE"
+                    android:layout_width="9dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/buttonstring" />
+
+                <TextView
+                    android:id="@+id/TextView05"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/circle_white"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="E"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/idBtnA"
+                    android:layout_width="8dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/buttonstring" />
+
+                <TextView
+                    android:id="@+id/TextView04"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/circle_white"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="A"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/idBtnD"
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/buttonstring" />
+
+                <TextView
+                    android:id="@+id/TextView03"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/circle_white"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="D"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/idBtnG"
+                    android:layout_width="6dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/buttonstring" />
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/circle_white"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="G"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/idBtnB"
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/buttonstring" />
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/circle_white"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="B"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/idBtnE2"
+                    android:layout_width="4dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/buttonstring" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/circle_white"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="E"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </FrameLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
